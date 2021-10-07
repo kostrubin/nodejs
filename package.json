@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon task_1.1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostrubin/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostrubin/nodejs/issues"
+  },
+  "homepage": "https://github.com/kostrubin/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
