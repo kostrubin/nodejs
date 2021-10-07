@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task1": "nodemon task_1.1/index.js",
-    "task2": "nodemon task_1.2/index.js",
+    "task1": "nodemon src/task_1.1/index.js",
+    "task2": "nodemon src/task_1.2/index.js",
     "task3": "babel src -d lib"
   },
   "repository": {
@@ -26,5 +26,6 @@
   },
   "dependencies": {
     "csvtojson": "^2.0.10"
-  }
+  },
+  "type": "module"
 }

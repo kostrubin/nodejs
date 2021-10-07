@@ -3,8 +3,9 @@ import path from 'path';
 import fs from 'fs';
 import { pipeline } from 'stream';
 
-const csvFilePath = path.join(__dirname, './csv/data.csv');
-const jsonFilePath = path.join(__dirname, './csv/result.txt');
+const __dirname = path.dirname('./src/task_1.2/csv/data.csv');
+const csvFilePath = path.join(__dirname, 'data.csv');
+const jsonFilePath = path.join(__dirname, 'result.txt');
 const MAX_CHUNK_SIZE = 10;
 
 pipeline(
