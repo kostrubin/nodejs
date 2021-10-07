@@ -1,7 +1,7 @@
-const csv = require('csvtojson');
-const path = require('path');
-const fs = require('fs');
-const { pipeline } = require('stream');
+import csv from 'csvtojson';
+import path from 'path';
+import fs from 'fs';
+import { pipeline } from 'stream';
 
 const csvFilePath = path.join(__dirname, './csv/data.csv');
 const jsonFilePath = path.join(__dirname, './csv/result.txt');
